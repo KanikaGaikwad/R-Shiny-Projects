@@ -36,7 +36,7 @@ ui <- dashboardPage(
   )
   
 )
-path = "C:/Users/Kanika Gaikwad/Desktop/Sem 3/adaptive bi/Project/BurgerBounty.xlsx"
+path = "Burger Bounty Project/BurgerBounty.xlsx"
 server <- function(input, output) {
   df_Visits <- read.xlsx(path, sheet = "Visits", detectDates = TRUE)
   df_Sales <- read.xlsx(path, sheet = "Sales", detectDates = TRUE)
