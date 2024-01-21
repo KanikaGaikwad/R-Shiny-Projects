@@ -2,7 +2,7 @@ library(shiny)
 library(openxlsx)
 
 Update.Data <- function(Name, Date, B1, B2, B3, B4, B5, B6, Town, Time, Precipitation, Temperature, Event, Weekend, P1, P2, P3, P4, P5, P6) {
-  excel_file <- "C:/Users/Kanika Gaikwad/Desktop/Sem 3/adaptive bi/Project/BurgerBounty.xlsx"
+  excel_file <- "Burger Bounty Project/BB-PriceAndSalesTracker/BurgerBounty (1).xlsx"
   
   # Load the workbook
   wb <- loadWorkbook(excel_file)
